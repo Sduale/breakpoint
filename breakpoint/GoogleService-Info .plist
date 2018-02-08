@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>1081012598985-8s0v9t9pjrkmkadgm15s42cqkskupnvk.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1081012598985-8s0v9t9pjrkmkadgm15s42cqkskupnvk</string>
+	<key>API_KEY</key>
+	<string>AIzaSyARfqLVq5BtvU-4okhK5Kn5ww9noO5dmQM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1081012598985</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.CodeForLaferrari.breakpoint</string>
+	<key>PROJECT_ID</key>
+	<string>breakpoint-9cd96</string>
+	<key>STORAGE_BUCKET</key>
+	<string>breakpoint-9cd96.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1081012598985:ios:8e2377d3d0f3f164</string>
+	<key>DATABASE_URL</key>
+	<string>https://breakpoint-9cd96.firebaseio.com</string>
+</dict>
+</plist>
