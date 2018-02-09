@@ -14,6 +14,7 @@
 		CF828B88202BBA9D00C463E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF828B87202BBA9D00C463E1 /* Assets.xcassets */; };
 		CF828B8B202BBA9D00C463E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF828B89202BBA9D00C463E1 /* LaunchScreen.storyboard */; };
 		CF828B98202BD6FB00C463E1 /* GoogleService-Info .plist in Resources */ = {isa = PBXBuildFile; fileRef = CF828B97202BD6FA00C463E1 /* GoogleService-Info .plist */; };
+		CF828B9A202BE0EA00C463E1 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF828B99202BE0EA00C463E1 /* DataService.swift */; };
 		DE01BAFA55A9D6176F09186A /* Pods_breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3C5C48FC36A3FABD1C0267 /* Pods_breakpoint.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		CF828B8A202BBA9D00C463E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF828B8C202BBA9D00C463E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF828B97202BD6FA00C463E1 /* GoogleService-Info .plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info .plist"; sourceTree = "<group>"; };
+		CF828B99202BE0EA00C463E1 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 		CF828B96202BBBA200C463E1 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				CF828B99202BE0EA00C463E1 /* DataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				CF828B83202BBA9D00C463E1 /* SecondViewController.swift in Sources */,
 				CF828B7F202BBA9D00C463E1 /* AppDelegate.swift in Sources */,
 				CF828B81202BBA9D00C463E1 /* FirstViewController.swift in Sources */,
+				CF828B9A202BE0EA00C463E1 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +417,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KP5G8YVGW7;
 				INFOPLIST_FILE = breakpoint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CodeForLaferrari.breakpoint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -429,6 +434,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KP5G8YVGW7;
 				INFOPLIST_FILE = breakpoint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CodeForLaferrari.breakpoint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
