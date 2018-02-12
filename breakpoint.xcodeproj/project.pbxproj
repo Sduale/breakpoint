@@ -14,6 +14,9 @@
 		CF1E3356202DC75A0094DDDD /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1E3355202DC75A0094DDDD /* AuthService.swift */; };
 		CF1E3358202DF8DF0094DDDD /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1E3357202DF8DF0094DDDD /* MeVC.swift */; };
 		CF1E335A202DFDFF0094DDDD /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1E3359202DFDFF0094DDDD /* CreatePostVC.swift */; };
+		CF1E335C202E07890094DDDD /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1E335B202E07890094DDDD /* UIViewExt.swift */; };
+		CF661DAE2031BA83006BF391 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF661DAD2031BA83006BF391 /* Message.swift */; };
+		CF661DB02031C0E6006BF391 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF661DAF2031C0E6006BF391 /* FeedCell.swift */; };
 		CF828B7F202BBA9D00C463E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF828B7E202BBA9D00C463E1 /* AppDelegate.swift */; };
 		CF828B81202BBA9D00C463E1 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF828B80202BBA9D00C463E1 /* FeedVC.swift */; };
 		CF828B83202BBA9D00C463E1 /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF828B82202BBA9D00C463E1 /* GroupsVC.swift */; };
@@ -36,6 +39,9 @@
 		CF1E3355202DC75A0094DDDD /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		CF1E3357202DF8DF0094DDDD /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 		CF1E3359202DFDFF0094DDDD /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
+		CF1E335B202E07890094DDDD /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		CF661DAD2031BA83006BF391 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		CF661DAF2031C0E6006BF391 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		CF828B7B202BBA9D00C463E1 /* breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF828B7E202BBA9D00C463E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF828B80202BBA9D00C463E1 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
@@ -122,6 +128,7 @@
 			children = (
 				CF1E3351202DBC5D0094DDDD /* InsetTextField.swift */,
 				CF1E3353202DC46A0094DDDD /* ShadowView.swift */,
+				CF661DAF2031C0E6006BF391 /* FeedCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -129,6 +136,7 @@
 		CF828B94202BBB6300C463E1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CF661DAD2031BA83006BF391 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -136,6 +144,7 @@
 		CF828B95202BBB7800C463E1 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				CF1E335B202E07890094DDDD /* UIViewExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -294,14 +303,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF1E335C202E07890094DDDD /* UIViewExt.swift in Sources */,
 				CF1E3358202DF8DF0094DDDD /* MeVC.swift in Sources */,
 				CF1E334E202DBBD10094DDDD /* AuthVC.swift in Sources */,
 				CF828B83202BBA9D00C463E1 /* GroupsVC.swift in Sources */,
 				CF1E3350202DBC0B0094DDDD /* LoginVC.swift in Sources */,
 				CF1E3356202DC75A0094DDDD /* AuthService.swift in Sources */,
 				CF828B7F202BBA9D00C463E1 /* AppDelegate.swift in Sources */,
+				CF661DB02031C0E6006BF391 /* FeedCell.swift in Sources */,
 				CF1E3354202DC46A0094DDDD /* ShadowView.swift in Sources */,
 				CF1E335A202DFDFF0094DDDD /* CreatePostVC.swift in Sources */,
+				CF661DAE2031BA83006BF391 /* Message.swift in Sources */,
 				CF828B81202BBA9D00C463E1 /* FeedVC.swift in Sources */,
 				CF1E3352202DBC5D0094DDDD /* InsetTextField.swift in Sources */,
 				CF828B9A202BE0EA00C463E1 /* DataService.swift in Sources */,
